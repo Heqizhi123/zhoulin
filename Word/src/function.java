@@ -40,6 +40,8 @@ public class function {
         }
     }
   //排序 
+	
+	
     void sort(Map<String, Integer> map,int a) {  
        Set<Entry<String,Integer>> m= map.entrySet();   
        LinkedList<Entry<String, Integer>> List = new LinkedList<Entry<String,Integer>>(m);
